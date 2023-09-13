@@ -4,7 +4,7 @@ Api => https://randomuser.me/api/
 
 # Steps to Follow
 
-- [x]Fetch 100 rows of data using the API.__
+- [x]Fetch 100 rows of data using the API.
 - [x] Display the data in a table format, similar to the example.
 - [x]Provide the option to color rows as shown in the example.
 - [x] Allow the data to be sorted by country as demonstrated in the example.
