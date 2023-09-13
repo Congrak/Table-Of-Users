@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  width: screen;
+  height: screen;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  font-family: system-ui;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+table th, table td {
+  padding: 8px; 
+  text-align: center; 
+  border-bottom: 1px solid white;
+}
+
+main {
+  width: 100%;
+}
+
+th {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+tbody tr:hover {
+  background-color: #555;
+  transition: ease-in 0.3s;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
